@@ -115,12 +115,10 @@
 		DE5AE76D24EBACA5009F8F87 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
+				DEF32AD524F670B100A9E7B0 /* Controller */,
+				DEF32AD424F670A200A9E7B0 /* Database */,
 				DE5AE76E24EBACA5009F8F87 /* AppDelegate.swift */,
 				DE5AE77024EBACA5009F8F87 /* SceneDelegate.swift */,
-				DE5AE77224EBACA5009F8F87 /* ViewController.swift */,
-				DE5AE7AA24EBD615009F8F87 /* ListViewController.swift */,
-				DE5AE7A824EBB1B0009F8F87 /* DatabaseHelper.swift */,
-				DE5AE7AC24EBD625009F8F87 /* TableViewCell.swift */,
 				DE5AE7A124EBADBF009F8F87 /* Student+CoreDataClass.swift */,
 				DE5AE7A224EBADBF009F8F87 /* Student+CoreDataProperties.swift */,
 				DE5AE77424EBACA5009F8F87 /* Main.storyboard */,
@@ -156,6 +154,24 @@
 				DE5AE7A624EBAE4C009F8F87 /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEF32AD424F670A200A9E7B0 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				DE5AE7A824EBB1B0009F8F87 /* DatabaseHelper.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		DEF32AD524F670B100A9E7B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE5AE7AC24EBD625009F8F87 /* TableViewCell.swift */,
+				DE5AE77224EBACA5009F8F87 /* ViewController.swift */,
+				DE5AE7AA24EBD615009F8F87 /* ListViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
